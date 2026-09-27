@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "nodes": ["n1", "n2"],
+  "node_error_code": "E_NO_NODE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "clocks": { "n1": [0, 0], "n2": [0, 0] }, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "recv", "node": "n1", "p": 3, "l": 1 },
+    { "id": 2, "kind": "recv", "node": "n2", "p": 2, "l": 0 },
+    { "id": 3, "kind": "recv", "node": "n1", "p": 3, "l": 5 },
+    { "id": 4, "kind": "recv", "node": "n2", "p": 1, "l": 9 },
+    { "id": 5, "kind": "recv", "node": "n1", "p": 5, "l": 2 }
+  ]
+}
